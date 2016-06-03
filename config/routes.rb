@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-
   namespace :admin do
     root 'application#index'
 
@@ -17,4 +16,6 @@ Rails.application.routes.draw do
   resources :projects, only: [:index, :show, :edit, :update] do
     resources :tickets
   end
+
+  resources :attachments, only: [:show]
 end
