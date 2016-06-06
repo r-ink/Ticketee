@@ -9,6 +9,8 @@ gem 'simple_form', '~> 3.2', '>= 3.2.1'
 gem 'devise', '~> 4.1', '>= 4.1.1'
 gem 'pundit', '~> 1.1'
 
+gem "searcher", github: "radar/searcher"
+
 gem 'carrierwave', '~> 0.11.2'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
