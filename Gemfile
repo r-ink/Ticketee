@@ -1,10 +1,12 @@
 source 'https://rubygems.org'
-
-
+ruby '2.3.0'
 gem 'rails', '4.2.6'
+
 gem "sqlite3", group: [:development, :test]
 gem "pg", group: :production
 gem "rails_12factor", group: :production
+gem "puma", group: :production
+
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 gem 'font-awesome-rails', '~> 4.6', '>= 4.6.3.0'
 gem 'simple_form', '~> 3.2', '>= 3.2.1'
